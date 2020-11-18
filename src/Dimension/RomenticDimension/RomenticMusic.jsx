@@ -1,10 +1,7 @@
 import React from "react"
-import {Grid , Paper} from "@material-ui/core"
+import {Grid } from "@material-ui/core"
 import {makeStyles} from "@material-ui/core/styles"
-import ClassNames from "classnames"
-import AnimeImg from "../../UI/Image/animeLove"
-import Button from "@material-ui/core/Button"
-import AddIcon from "../../UI/Image/Add"
+
 import "../../Container/PostAnime.css"
 import MusicAnime from "../../UI/Image/music"
 import MusicButton from "../../UI/musicButton/RmenticButton"

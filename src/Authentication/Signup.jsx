@@ -4,7 +4,6 @@ import {makeStyles} from "@material-ui/core/styles"
 import TextField from "@material-ui/core/TextField"
 import { Grid} from "@material-ui/core"
 import Typography from "@material-ui/core/Typography"
-import Card from "@material-ui/core/Card"
 import Button from "@material-ui/core/Button"
 import Fukoimg from "../demo/signup.jpg"
 const useStyles = makeStyles((theme)=>({
@@ -32,7 +31,7 @@ const useStyles = makeStyles((theme)=>({
           },
           imghandle:{
               width:"60%",
-              height:"50%",
+              height:"33  %",
              borderRadius:"12px",
               transform:"scaleX(-1)"
           }       ,
@@ -72,7 +71,7 @@ const signUp=()=>{
    
             </Grid>
             <Grid item md="6" xs="6">
-            <img src={Fukoimg} className={classes.imghandle}  />
+            <img src={Fukoimg} alt="sign_up img" className={classes.imghandle}  />
             </Grid>
             </Grid>
             </Container>

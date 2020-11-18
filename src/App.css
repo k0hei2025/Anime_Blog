@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  font-family: 'Luckiest Guy', cursive;
   
+   background-image: url("./demo/music.jpg");
+   background-size: cover;
 }
 
 .storre{

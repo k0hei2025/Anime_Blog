@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 const music =()=>{
     const classes = useStyles();
     return(
-        <img src={musicImg} className={classes.small}/>
+        <img src={musicImg} className={classes.small} alt="icon"/>
     )
 }
 export default music;

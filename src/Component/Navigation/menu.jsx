@@ -21,7 +21,6 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import StorageOutlinedIcon from '@material-ui/icons/StorageOutlined';
 import ReceiptIcon from '@material-ui/icons/Receipt';
-import Button from "@material-ui/core/Button"
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -99,8 +98,12 @@ const useStyles = makeStyles((theme) => ({
       ['Syne Tactile', "cursive"],
       fontWeight:"bold",
   },
-
-
+ 
+  white:{
+    color:"white",
+ fontfamily:  [  'Luckiest Guy', "cursive",
+]
+  }
 
 }));
 
@@ -142,7 +145,7 @@ const menu =()=>{
                   <MenuIcon  />
                 </IconButton>
                 <Typography variant="h6" noWrap  className={classes.listItem}>
-                 Anime Blog 
+                <NavLink to="/"> <Typography className={classes.white}>Anime Blog </Typography>  </NavLink> 
                 </Typography>
               </Toolbar>
             </AppBar>
@@ -166,7 +169,7 @@ const menu =()=>{
             <ListItemIcon>
                 <HomeIcon/>
             </ListItemIcon>
-                Home 
+               <NavLink to="/"> Home </NavLink> 
             </ListItem>
             
             <ListItem>

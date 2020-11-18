@@ -2,7 +2,6 @@ import React from "react"
 import Container from "@material-ui/core/Container"
 import {makeStyles} from "@material-ui/core/styles"
 import Comedy from "../../Component/catagories/Comedy"
-import BackgroundImage from "../../demo/romantic.png"
 const useStyles = makeStyles({
 
    Image:{

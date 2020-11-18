@@ -18,8 +18,9 @@ const musicButton =()=>{
   }
   
   const soundHandler =()=>{
+    return (
   toggleHandler ? sound.play():null
-  }
+    )}
 
 
   Howler.volume(1.0)

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter , Switch , NavLink , Route} from "react-router-dom"
+import {BrowserRouter , Switch , Route} from "react-router-dom"
 import LandingPage from "../src/LandingPage/LandingPage"
 import './App.css';
 import OtakuDimension from "./Dimension/ShonenDimension/Shonen"
@@ -12,11 +12,15 @@ import RomenticContent from "./Dimension/RomenticDimension/Romentic"
 import ComedyContent from "./Dimension/ComedyDimension/Comedy"
 import Signup from "./Authentication/Signup"
 import AddAnime from "./Component/postAnime/AddAnime"
+import Navigation from "./Container/Navigation"
 class App extends Component {
   render() {
     return (   
       <BrowserRouter>
+
     <div className="App">
+   <Navigation/>
+     
     <Switch>
             <Route path="/" exact component={LandingPage}/> 
             <Route path="/shonenDimension" exact component={OtakuDimension}   />

@@ -18,7 +18,9 @@ const musicButton =()=>{
   }
   
   const soundHandler =()=>{
-  toggleHandler ? sound.play():null
+  return (
+    toggleHandler ? sound.play():null
+  )
   }
 
 

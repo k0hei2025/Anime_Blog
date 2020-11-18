@@ -1,7 +1,7 @@
 import React from "react"
 import Add from "../../icons/button.svg"
 import {makeStyles} from "@material-ui/core/styles"
-import Avatar from "@material-ui/core/Avatar"
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 const addIcon =()=>{
 const classes = useStyles()
     return(
-    <img src={Add} className={classes.small} />
+    <img src={Add} className={classes.small} alt="add_Icon" />
     )
 }
 export default addIcon;

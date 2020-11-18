@@ -1,9 +1,7 @@
 import React from "react"
 import {makeStyles} from "@material-ui/core/styles"
-import Container from '@material-ui/core/Container';
 import {Grid} from "@material-ui/core"
 import AttentionImg  from "../../UI/Image/ImageCompartment"
-import ClassNames from "classnames"
 
 const useStyles= makeStyles((theme)=>({
  margin:{

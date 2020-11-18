@@ -2,7 +2,7 @@ import React from "react"
 import img from "../../icons/attention.png";
  const image =()=>{
     return (
-     <img src={img} />
+     <img src={img} alt="compartment" />
     )
 }
 export default image
